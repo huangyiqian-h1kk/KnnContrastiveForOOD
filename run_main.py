@@ -533,6 +533,7 @@ def main():
         #fitlog.finish()
 
     # Evalution
+"""
     if training_args.do_predict:
         evaler = Evaluation(
             model=model,
@@ -549,7 +550,7 @@ def main():
 
     return None
 
-
+"""
 def _mp_fn(index):
     # For xla_spawn (TPUs)
     main()
